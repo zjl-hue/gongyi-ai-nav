@@ -12,6 +12,16 @@ python -m http.server 4173 --directory dist
 
 然后打开 `http://localhost:4173/`。
 
+## 发布到 GitHub Pages
+
+本项目已经配置了 GitHub Actions。将项目推送到 GitHub 仓库的 `main` 分支后，Actions 会自动把 `dist` 目录发布到 GitHub Pages。
+
+首次发布时，在 GitHub 仓库中打开 `Settings → Pages`，将 `Source` 设置为 `GitHub Actions`。之后每次更新并推送到 `main`，网站都会自动更新。
+
+网站地址通常是：
+
+`https://你的用户名.github.io/仓库名/`
+
 ## 数据维护
 
 站点数据位于 `dist/data/sites.json`。每条记录应包含：
