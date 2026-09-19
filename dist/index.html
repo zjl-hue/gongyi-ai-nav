@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#08121f" />
+    <meta name="description" content="整理 AI 公益中转站、支持模型、免费额度和核验状态的导航网站。" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>公益 AI 中转站 · 找到适合你的模型入口</title>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="./" aria-label="公益 AI 导航首页">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>公益 AI 导航</span>
+        </a>
+        <div class="topbar-actions">
+          <span class="version-badge">BETA / 01</span>
+          <a class="text-link" href="#rules">收录规则</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span>PUBLIC AI RELAY DIRECTORY</p>
+            <h1 id="hero-title">公益中转站<br /><em>一页找到入口</em></h1>
+            <p class="hero-description">只整理 AI 公益中转站，集中展示支持模型、额度说明、注册条件和资料日期。先看清楚状态，再决定是否使用。</p>
+            <div class="hero-note">
+              <span class="note-icon">↗</span>
+              <span>首批资料参考 Free NewAPI，第三方站点尚未逐一实测。额度与可用性请以站点实时页面为准。</span>
+            </div>
+          </div>
+          <div class="hero-orbit" aria-hidden="true">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="orbit orbit-three"></div>
+            <div class="orbit-core">AI<br /><small>INDEX</small></div>
+            <span class="orbit-label label-one">GPT</span>
+            <span class="orbit-label label-two">CLAUDE</span>
+            <span class="orbit-label label-three">OPEN</span>
+          </div>
+        </section>
+
+        <section class="stats-row" aria-label="目录概览">
+          <div class="stat-item"><strong id="total-count">—</strong><span>收录条目</span></div>
+          <div class="stat-item"><strong id="model-count">—</strong><span>覆盖模型</span></div>
+          <div class="stat-item"><strong id="source-count">—</strong><span>资料来源</span></div>
+          <div class="stat-item stat-update"><strong>2026.09.19</strong><span>首版整理</span></div>
+        </section>
+
+        <section class="directory-section" aria-labelledby="directory-title">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">DIRECTORY / 01</p>
+              <h2 id="directory-title">公益中转站</h2>
+            </div>
+            <p class="section-caption">信息会变化，核验日期比“免费”两个字更重要。</p>
+          </div>
+
+          <div class="toolbar" role="search">
+            <label class="search-box">
+              <span class="search-icon" aria-hidden="true">⌕</span>
+              <input id="search-input" type="search" placeholder="搜索站点、模型或关键词" autocomplete="off" />
+              <kbd>/</kbd>
+            </label>
+            <div class="model-filters" id="model-filters" aria-label="按模型筛选"></div>
+          </div>
+
+          <div class="results-meta">
+            <span id="result-count">正在读取目录…</span>
+            <button class="clear-button" id="clear-filters" type="button">清除筛选</button>
+          </div>
+
+          <div class="site-grid" id="site-grid" aria-live="polite"></div>
+          <div class="empty-state" id="empty-state" hidden>
+            <div class="empty-mark">∅</div>
+            <h3>没有找到匹配条目</h3>
+            <p>换一个关键词，或清除筛选后再试。</p>
+          </div>
+        </section>
+
+        <section class="rules-section" id="rules" aria-labelledby="rules-title">
+          <div class="rules-intro">
+            <p class="section-kicker">GUIDE / 02</p>
+            <h2 id="rules-title">使用前，先看这三点</h2>
+            <p>这是信息导航，不是对任何第三方服务的背书。我们只整理公开信息，不保存、不分发 API Key。</p>
+          </div>
+          <div class="rule-list">
+            <article class="rule-card"><span>01</span><div><h3>不要提交敏感内容</h3><p>第三方中转可能记录请求。论文原始数据、密码、私有代码和个人信息不要直接提交。</p></div></article>
+            <article class="rule-card"><span>02</span><div><h3>额度不是长期承诺</h3><p>注册赠送、签到额度、模型列表和注册条件都可能随时变化，使用前请打开官网复核。</p></div></article>
+            <article class="rule-card"><span>03</span><div><h3>优先选择可追溯来源</h3><p>每条记录保留来源和日期；站点失效后会标记待复核，不把历史信息伪装成现状。</p></div></article>
+          </div>
+        </section>
+
+        <section class="contribute-section" aria-labelledby="contribute-title">
+          <div>
+            <p class="section-kicker">CONTRIBUTE / 03</p>
+            <h2 id="contribute-title">一起维护一份更干净的清单</h2>
+            <p>欢迎提交新站点、补充核验日期，或报告已经失效的入口。公开发布仓库后，这里会接入 Issue 提交流程。</p>
+          </div>
+          <span class="coming-soon">SUBMISSION PORTAL / SOON</span>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div><span class="footer-brand">公益 AI 中转站</span><span class="footer-muted">栏目结构参考 Free NewAPI，内容独立整理。</span></div>
+        <div class="footer-meta"><span>信息仅供参考</span><span>·</span><span>请遵守各平台服务条款</span></div>
+      </footer>
+    </div>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Any Router",
+    "url": "https://anyrouter.top/register",
+    "models": ["Claude", "GPT", "DeepSeek"],
+    "quota": "注册赠送与签到额度，需以官网实时页面为准",
+    "note": "第三方公益中转站；注册条件可能变化。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "Agent Router",
+    "url": "https://agentrouter.org/register",
+    "models": ["Claude", "GPT", "GLM", "DeepSeek"],
+    "quota": "注册与签到额度，需以官网实时页面为准",
+    "note": "支持多种客户端；请先阅读官方文档和服务条款。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "维云模型开放平台",
+    "url": "https://vsllm.cc",
+    "models": ["Claude", "GPT", "GLM", "DeepSeek"],
+    "quota": "每日任务获取额度，具体以平台说明为准",
+    "note": "第三方模型平台；不要把它当作官方模型入口。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "CM-API 公益站",
+    "url": "https://api.chengmo.cc.cd/sign-up",
+    "models": ["Claude", "GPT", "GLM", "DeepSeek"],
+    "quota": "每日签到获取额度，具体以站点公告为准",
+    "note": "第三方中转入口；稳定性和模型覆盖可能变化。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "ZeroCat",
+    "url": "https://zero.cat/sign-up",
+    "models": ["Claude", "GPT", "Gemini", "DeepSeek"],
+    "quota": "每日签到获取额度，具体以官网为准",
+    "note": "第三方模型聚合入口；建议使用专用账号。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "Huan API",
+    "url": "https://ai.huan666.de/sign-up",
+    "models": ["Claude", "Grok", "Moonshot", "DeepSeek"],
+    "quota": "每日签到获取额度，具体以站点说明为准",
+    "note": "第三方中转入口；请关注可用模型和限流规则。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "可萌中转站",
+    "url": "https://api456.me/register",
+    "models": ["Claude", "GPT", "Gemini", "Qwen"],
+    "quota": "每日签到获取额度，具体以平台页面为准",
+    "note": "第三方 API 中转站；不要提交敏感数据。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "Token 能量站",
+    "url": "https://factory.pub/sign-up",
+    "models": ["Claude", "GPT", "GLM", "DeepSeek"],
+    "quota": "每日签到获取额度，具体以平台公告为准",
+    "note": "第三方公益入口；额度和模型可能动态调整。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "快跑 API",
+    "url": "https://kuaipao.ai/register",
+    "models": ["Claude", "GPT", "GLM", "DeepSeek"],
+    "quota": "签到或活动额度，具体以官网为准",
+    "note": "第三方模型聚合入口；请先核对模型列表。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "PM-API",
+    "url": "https://xn--wnup5g6so4wn.de5.net/sign-up",
+    "models": ["Claude", "GPT", "GLM", "DeepSeek"],
+    "quota": "公开清单标注为免费，具体以站点实时页面为准",
+    "note": "第三方中转入口；请核对注册和使用条件。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "New API 公益站",
+    "url": "https://new-api.abrdns.com/register",
+    "models": ["Claude", "GPT", "GLM", "DeepSeek"],
+    "quota": "签到获取额度，具体以官网为准",
+    "note": "公开清单曾标注维护中，使用前请确认状态。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "Pomelo",
+    "url": "https://api.67.si/sign-up",
+    "models": ["Grok", "GPT", "GLM", "DeepSeek"],
+    "quota": "每日签到获取额度，具体以官网为准",
+    "note": "第三方模型中转入口；额度可能动态变化。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "BER 分公益站",
+    "url": "https://ai.berf1.cn/sign-up",
+    "models": ["GLM", "DeepSeek"],
+    "quota": "每日签到获取额度，具体以站点公告为准",
+    "note": "第三方公益入口；建议先小额测试。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "hkai",
+    "url": "https://share.hkai25.top/sign-up",
+    "models": ["Grok", "MiniMax", "GLM", "DeepSeek"],
+    "quota": "每日签到获取额度，具体以官网为准",
+    "note": "第三方中转入口；请关注服务条款与限流。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  },
+  {
+    "name": "糯喵喵の AI 驿站",
+    "url": "https://ai.yangwj.me/sign-up",
+    "models": ["Grok", "GPT", "GLM", "DeepSeek"],
+    "quota": "每日签到获取额度，具体以平台页面为准",
+    "note": "第三方模型聚合入口；注册状态需自行确认。",
+    "status": "待复核",
+    "source": "Free NewAPI",
+    "sourceDate": "2026-09-19"
+  }
+]
